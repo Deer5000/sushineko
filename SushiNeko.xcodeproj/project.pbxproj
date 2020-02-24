@@ -15,6 +15,11 @@
 		BF26320E23ECD1A500400FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26320C23ECD1A500400FF8 /* Main.storyboard */; };
 		BF26321023ECD1A800400FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF26320F23ECD1A800400FF8 /* Assets.xcassets */; };
 		BF26321323ECD1A800400FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26321123ECD1A800400FF8 /* LaunchScreen.storyboard */; };
+		BF26321B23ECD27C00400FF8 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF26321A23ECD27C00400FF8 /* assets.atlas */; };
+		BF26321D23ECD2A200400FF8 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26321C23ECD2A200400FF8 /* MSButtonNode.swift */; };
+		BF26321F23ECD60C00400FF8 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26321E23ECD60C00400FF8 /* SushiPiece.swift */; };
+		BF26322123F328B300400FF8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26322023F328B300400FF8 /* Character.swift */; };
+		BF26322523F3305500400FF8 /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF26322423F3305500400FF8 /* AnimationActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		BF26320F23ECD1A800400FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF26321223ECD1A800400FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF26321423ECD1A800400FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26321A23ECD27C00400FF8 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		BF26321C23ECD2A200400FF8 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		BF26321E23ECD60C00400FF8 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		BF26322023F328B300400FF8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BF26322423F3305500400FF8 /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				BF26320223ECD1A500400FF8 /* AppDelegate.swift */,
+				BF26322423F3305500400FF8 /* AnimationActions.sks */,
 				BF26320423ECD1A500400FF8 /* GameScene.sks */,
+				BF26322023F328B300400FF8 /* Character.swift */,
 				BF26320623ECD1A500400FF8 /* Actions.sks */,
 				BF26320823ECD1A500400FF8 /* GameScene.swift */,
+				BF26321E23ECD60C00400FF8 /* SushiPiece.swift */,
 				BF26320A23ECD1A500400FF8 /* GameViewController.swift */,
 				BF26320C23ECD1A500400FF8 /* Main.storyboard */,
 				BF26320F23ECD1A800400FF8 /* Assets.xcassets */,
 				BF26321123ECD1A800400FF8 /* LaunchScreen.storyboard */,
 				BF26321423ECD1A800400FF8 /* Info.plist */,
+				BF26321C23ECD2A200400FF8 /* MSButtonNode.swift */,
+				BF26321A23ECD27C00400FF8 /* assets.atlas */,
 			);
 			path = SushiNeko;
 			sourceTree = "<group>";
@@ -133,6 +148,8 @@
 			files = (
 				BF26320E23ECD1A500400FF8 /* Main.storyboard in Resources */,
 				BF26320523ECD1A500400FF8 /* GameScene.sks in Resources */,
+				BF26322523F3305500400FF8 /* AnimationActions.sks in Resources */,
+				BF26321B23ECD27C00400FF8 /* assets.atlas in Resources */,
 				BF26321023ECD1A800400FF8 /* Assets.xcassets in Resources */,
 				BF26321323ECD1A800400FF8 /* LaunchScreen.storyboard in Resources */,
 				BF26320723ECD1A500400FF8 /* Actions.sks in Resources */,
@@ -149,6 +166,9 @@
 				BF26320923ECD1A500400FF8 /* GameScene.swift in Sources */,
 				BF26320B23ECD1A500400FF8 /* GameViewController.swift in Sources */,
 				BF26320323ECD1A500400FF8 /* AppDelegate.swift in Sources */,
+				BF26322123F328B300400FF8 /* Character.swift in Sources */,
+				BF26321F23ECD60C00400FF8 /* SushiPiece.swift in Sources */,
+				BF26321D23ECD2A200400FF8 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
